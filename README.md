@@ -1,24 +1,31 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+This is a web-based desktop application that allows users yo create content and article about their Lifestyle activities such as Entertainment, Business, fashion, and sports.  The users are authenticated using devise (user authentication) and from there users can upload any images related to the four categories.
 
-* System dependencies
+## Built With
 
-* Configuration
+- Ruby v3.2.2
+- Ruby on Rails v7.0.8
+- MySQL
 
-* Database creation
+### Running the application
 
-* Database initialization
+- start a server with `rails s` on your terminal
 
-* How to run the test suite
+- open `http://localhost:3000/` in your browser.
 
-* Services (job queues, cache servers, search engines, etc.)
+- For authentication, username, email and password credentials are need for a user to be            authenticated.
 
-* Deployment instructions
+## Author
 
-* ...
+👤 **BENSO**
+
+-Github (https://github.com/benson1000)
+
+
+## support the project
+
+Support the project by clicking ⭐️ if you like this project. 
+
