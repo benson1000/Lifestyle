@@ -9,17 +9,41 @@ gem "rails", "~> 7.0.8"
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
 
+gem 'bootstrap-sass', '~> 3.4.1'
+
+
+gem 'sassc-rails', '>= 2.1.0'
+
 # Use sqlite3 as the database for Active Record
 gem "sqlite3", "~> 1.4"
+
+#font-awesome-rails provides the Font-Awesome web fonts and stylesheets
+gem "font-awesome-rails"
+
+gem 'popper_js', '~> 2.11.8'
+
+gem 'jquery-rails', '~> 4.3'
+
+#this gem allows you to validate form input in the user's browser before the form is even submitted, providing instant feedback and improving user experience.
+gem 'client_side_validations'
+
+#simplifies the management of JavaScript dependencies
+gem 'importmap-rails'
 
 # Use the Puma web server [https://github.com/puma/puma]
 gem "puma", "~> 5.0"
 
-# Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
-
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
+
+#for user authentication.
+
+gem 'devise'
+
+gem 'mysql2'
+
+# Turbolinks makes navigating your web application faster. Read more: https://github.com/turbolinks/turbolinks
+gem 'turbolinks', '~> 5'
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
 gem "stimulus-rails"
