@@ -6,4 +6,6 @@ Rails.application.routes.draw do
   # root "articles#index"
   get 'about', to: 'pages#about'
   root "pages#home"
+
+  resources :categories
 end

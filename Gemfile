@@ -22,7 +22,9 @@ gem "font-awesome-rails"
 
 gem 'popper_js', '~> 2.11.8'
 
-gem 'jquery-rails', '~> 4.3'
+#gem 'jquery-rails', '~> 4.3'
+
+gem 'jquery-rails'
 
 #this gem allows you to validate form input in the user's browser before the form is even submitted, providing instant feedback and improving user experience.
 gem 'client_side_validations'
@@ -39,6 +41,8 @@ gem "turbo-rails"
 #for user authentication.
 
 gem 'devise'
+
+#gem 'bootstrap', '~> 4.0.0'
 
 gem 'mysql2'
 
